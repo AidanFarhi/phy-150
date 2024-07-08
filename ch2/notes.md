@@ -98,3 +98,27 @@ The rate at which velocity changes.
 Δ𝑣 = change in velocity
 
 Δ𝑡 = change in time
+
+### Instantaneous Acceleration
+
+The acceleration at a specific instant in time.
+
+### Solving for Displacement and Final Position from Average Velocity when Acceleration is Constant
+
+av: avg. velocity
+
+v0: staring velocity
+
+v: final velocity
+
+t: time
+
+x0: starting position
+
+x: final position
+
+<hr>
+
+av = (v0 + v) / 2
+
+x = x0 + av * t
