@@ -117,8 +117,45 @@ x0: starting position
 
 x: final position
 
-<hr>
-
 av = (v0 + v) / 2
 
 x = x0 + av * t
+
+### Solving for Final Velocity
+
+(Assuming constant acceleration)
+
+𝑎 = Δ𝑣/Δ𝑡
+
+a = (v - v0) / t
+
+Solving for v:
+
+v = v0 + a * t
+
+### Solving For Final Position When Velocity Is Not Constant
+
+(Assuming constant acceleration)
+
+x = x0 + v0*t + 1/2*a*t^2
+
+### Solving For Final Velocity When Velocity Is Not Constant
+
+(Assuming constant acceleration)
+
+v^2 = v0^2 + 2a(x - x0)
+
+### Gravity
+
+In a vacuum, all objects fall toward the center of the Earth with the same constant acceleration, independent of their mass.
+
+g = 9.80 m/s^2
+
+### Kinematic Equations For Objects In Free-Fall Where Acceleration = -g
+
+v = v0 - gt
+
+y = y0 + v0t - 0.5*g*t^2
+
+v^2 = v0^2 - 2*g(y - y0)
+
